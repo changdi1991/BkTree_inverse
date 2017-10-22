@@ -9,7 +9,9 @@ make all
 
 # Use binary
 $ ./bin/BkTree_Inverse  (built with g++ 5.4.0)
+
 Usage: Bktree_Inverse [-bbc] bbcFile [-bktree] bktreeFile [other options]
+
 [-bbc]     backbone coordinate file that store coordinates of C1 atoms [Required]
 [-bktree]  backbone k-tree produced by the mspkt program [Required]
 [-pa]      output candidate file of the 3-tree [Optional]
