@@ -3,8 +3,8 @@
 BkTree_inverse is a software to predict RNA sequences from a given scaffold of a RNA 3D structure.
 
 # Build program
-cd build
-make clean
+cd build  
+make clean  
 make all
 
 # Use binary
