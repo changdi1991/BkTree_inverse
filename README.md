@@ -2,13 +2,14 @@
 
 BkTree_inverse is a software to predict RNA sequences from a given scaffold of a RNA 3D structure.
 
-## Build program
-cd build  
-make clean  
-make all
+## Build Program
+(built with g++ 5.4.0)
+$ cd build  
+$ make clean  
+$ make all
 
-## Use binary
-$ ./bin/BkTree_Inverse  (built with g++ 5.4.0)  
+## Use Binary
+$ ./bin/BkTree_Inverse  
 Usage: Bktree_Inverse [-bbc] bbcFile [-bktree] bktreeFile [other options]  
 [-bbc]     backbone coordinate file that store coordinates of C1 atoms [Required]  
 [-bktree]  backbone k-tree produced by the mspkt program [Required]  
